@@ -43,7 +43,7 @@ def get_ia_suggestions(descricao_projeto: str, competencias_atuais: list[str]) -
     # A configuração acontece SÓ quando a função é chamada.
     try:
         genai.configure(api_key=GOOGLE_API_KEY)
-        model = genai.GenerativeModel('gemini-pro')
+        model = genai.GenerativeModel('gemini-2.5-flash')
     except Exception as e:
         print(f"Erro ao configurar a API do Gemini: {e}")
         return {"erro": f"Falha ao configurar API do Gemini: {str(e)}"}
