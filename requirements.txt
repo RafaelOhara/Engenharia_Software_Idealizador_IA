@@ -2,3 +2,4 @@ google-generativeai
 python-dotenv
 fastapi
 uvicorn[standard]
+pydantic[email]
