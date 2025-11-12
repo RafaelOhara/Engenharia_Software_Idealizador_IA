@@ -10,7 +10,7 @@ Um microsserviço que utiliza Inteligência Artificial para analisar a descriç�
 
 A API está hospedada e pode ser acessada através do seguinte endpoint base:
 
-**[https://seu-link-de-deploy-aqui.azurewebsites.net](https://seu-link-de-deploy-aqui.azurewebsites.net)**
+**[https://iaidealizador.azurewebsites.net/](https://seu-link-de-deploy-aqui.azurewebsites.net)**
 
 ---
 
